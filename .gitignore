@@ -9,6 +9,8 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/UserSettings/
+*/SceneDependencyCache/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -42,6 +44,8 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+.vsconfig
+SceneDependencyCache.*
 
 # Unity3D generated meta files
 *.pidb.meta
